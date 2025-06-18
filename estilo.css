@@ -3,7 +3,11 @@ estilo.css:
 margin:100px;
 }
 body {
+<<<<<<< HEAD
   background: yellow;
+=======
+  background: red;
+>>>>>>> 0e1325941c70d299802b2ed33deb35ec167226c2
 }
 
 
