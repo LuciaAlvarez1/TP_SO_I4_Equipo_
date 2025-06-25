@@ -17,32 +17,25 @@ I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 1
 en DESARROLLO ?
 
  
-a)El color de fondo de TESTING es azul 
-b)El color de fondo de DESARROLLO es celeste 
-c)El color de fondo de MASTER es celeste
-d)Queda el favicon de ALFA
+a) GAMMA: El color de fondo de TESTING es azul 
+b) GAMMA: El color de fondo de DESARROLLO es amarillo 
+c) BETA:El color de fondo de MASTER es amarillo
+d) BETA: Queda el favicon de BETA (fue quien hizo el merge a DESARROLLO primero)
 
-e) 
-No tuvimos problemas al hacer el push
+e) GAMMA: Sí, GAMMA.
 
  
-f)
-BETA: Salvo alguna que otra vez que me impidia hacer push porque en alguna otra rama ya tenia un commit hecho sin hacer push hecho 
+f) ALFA: Conflicto al hacer push porque el archivo fue modificado por otros.
 
-g)
-BETA: Lo arregle pronto finalizando ese commit faltante de la otra rama y haciendo push en la rama que queria hacer push,luego de eso no tuve muchos 
+g) BETA: Lo arregle pronto finalizando ese commit faltante de la otra rama y haciendo push en la rama que queria hacer push,luego de eso no tuve muchos 
 
-h)
-Si no esta  bien cordinado entonces seria un caos, por ejemplo si ALFA rescribe los archivos pero GAMMA no tiene los archivos actualizados de forma local 
-entonces puede sobreescribirse todo lo que alfa escribio antes.
-Si se utiliza y algun colaborador no tiene el repo local se sobreescribe la rama completa.
+h) GAMMA: Si no esta  bien cordinado entonces seria un caos, por ejemplo si ALFA rescribe los archivos pero GAMMA no tiene los archivos actualizados de forma local.
+Se pisarian los cambios y solo queda el del último que hizo push
  
-i)Pasarte primero a la rama DESARROLLO,y luego hacer MERGE en el archivo index.html:
-1-git switch DESARROLLO
-2-git checkout TESTING
-3-git add index.html
-4-git commit -m "index.html pasa a rama DESARROLLO"
-5-git push origin DESARROLLO
+i) ALFA: Hacer pull, resolver conflictos manualmente uniendo los 3 <p>, y luego hacer el push.
+
+
+
 
 
 
