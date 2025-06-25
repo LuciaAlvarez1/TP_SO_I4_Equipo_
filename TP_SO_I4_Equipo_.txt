@@ -1,15 +1,1 @@
-BETA:Ulises Acevedo 
-a)El color de fondo de TESTING es azul 
-B)El color de fondo de DESARROLLO es celeste 
-c)El color de fondo de MASTER es celeste 
-e)No casi no tuve problemas que resolver 
-f)Salvo alguna que otra vez que me impidia hacer push porque en alguna otra rama ya tenia un commit hecho sin hacer push hecho 
-g)Lo arregle pronto finalizando ese commit faltante de la otra rama y haciendo push en la rama que queria hacer push,luego de eso no tuve muchos problemas. 
-h)Si no esta  bien cordinado entonces seria un caos,por ejemplo si ALFA rescribe los archivos pero GAMMA no tiene los archivos actualizados de forma local 
-entonces puede sobreescribirse todo lo que alfa escribio antes. 
-i)Pasarte primero a la rama DESARROLLO,y luego hacer MERGE en el archivo index.html: 
--git switch DESARROLLO 
--git checkout TESTING -- index.html 
--git add index.html 
--git commit -m "archivo pasado a DESARROLLO" 
--git push origin DESARROLLO
+
