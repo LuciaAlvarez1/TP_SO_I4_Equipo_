@@ -20,18 +20,12 @@ en DESARROLLO ?
 a) GAMMA: El color de fondo de TESTING es azul 
 b) GAMMA: El color de fondo de DESARROLLO es amarillo 
 c) BETA:El color de fondo de MASTER es amarillo
-d) BETA: Queda el favicon de BETA (fue quien hizo el merge a DESARROLLO primero)
-
+d) BETA: Queda el favicon de Alfa
 e) GAMMA: Sí, GAMMA.
-
- 
 f) ALFA: Conflicto al hacer push porque el archivo fue modificado por otros.
-
 g) BETA: Lo arregle pronto finalizando ese commit faltante de la otra rama y haciendo push en la rama que queria hacer push,luego de eso no tuve muchos 
-
 h) GAMMA: Si no esta  bien cordinado entonces seria un caos, por ejemplo si ALFA rescribe los archivos pero GAMMA no tiene los archivos actualizados de forma local.
 Se pisarian los cambios y solo queda el del último que hizo push
- 
 i) ALFA: Hacer pull, resolver conflictos manualmente uniendo los 3 <p>, y luego hacer el push.
 
 
